@@ -1,0 +1,19 @@
+Please provide the following cargo movement details:
+
+
+1. From (origin city, capitalize the first letter): {{from}}
+2. To (destination city, capitalize the first letter): {{to}}
+3. Weight of cargo (provide a range, e.g., '15 to 20 kg' or '2 to 3 tons'): {{weight}}
+
+
+Using this information, I will analyze route options, check driver and vehicle availability, and consider current conditions to provide a comprehensive logistics recommendation including:
+
+
+- Detailed route summary with distance and estimated travel time
+- Current traffic conditions and weather forecast along the route
+- Available driver recommendations with experience details and hometown proximity
+- Suitable vehicle suggestions based on cargo weight and conditions
+- Final logistics plan with specific precautions and considerations
+
+
+Note: Drivers will be selected based on a combination of their hometown proximity to the destination and their relevant experience.

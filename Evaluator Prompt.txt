@@ -1,0 +1,12 @@
+As an expert evaluator, analyze the semantic similarity of these JSON contents to determine a score from 0–100.
+
+Note: The ActualOutput may include additional nesting such as "output" or multiple "content" objects. You must extract the innermost JSON object that contains fields like "routeSummary", "trafficAndWeather", "availableDrivers", "availableVehicles", and "finalRecommendation" before comparison.
+
+The goal is to compare based on meaning and structure, not exact JSON nesting.
+
+----
+ExpectedOutput:
+{{ExpectedOutput}}
+----
+ActualOutput:
+{{ActualOutput}}
