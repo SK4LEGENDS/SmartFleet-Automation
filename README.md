@@ -94,47 +94,82 @@ Example evaluation fields include:
 
 ---
 
-## 🧾 Example Output Structure
+## 🧾 Example 
+Input
+```json
+{
+  "from": "Chennai",
+  "to": "Delhi",
+  "weight": "15 tonns"
+}
+```
 
+Output
 ```json
 {
   "content": {
     "routeSummary": {
-      "origin": "",
-      "destination": "",
-      "distance": 0,
-      "duration": 0
+      "origin": "Chennai",
+      "destination": "Delhi",
+      "distance": 2200,
+      "duration": 40
     },
     "trafficAndWeather": {
-      "trafficConditions": "",
-      "weatherForecast": "",
-      "risks": [""]
+      "trafficConditions": "Moderate traffic expected along NH44 with occasional bottlenecks near major cities.",
+      "weatherForecast": "Clear skies expected for most of the route. Delhi may experience light fog in the early morning hours.",
+      "risks": [
+        "Light fog in Delhi may reduce visibility during early hours."
+      ]
     },
     "availableDrivers": [
       {
-        "name": "",
-        "id": "",
-        "experience": "",
-        "hometownProximity": "",
-        "phoneNumber": "",
-        "remarks": ""
+        "name": "Raj Malhotra",
+        "id": "17",
+        "experience": "8 years",
+        "hometownProximity": "Delhi",
+        "phoneNumber": "9876001122",
+        "remarks": "An expert driver who knows Delhi routes thoroughly but tends to be impatient during peak traffic"
+      },
+      {
+        "name": "Anil Kumar",
+        "id": "63",
+        "experience": "10 years",
+        "hometownProximity": "Delhi",
+        "phoneNumber": "9811172200",
+        "remarks": "He manages high-value cargo routes with precision and punctuality"
       }
     ],
     "availableVehicles": [
       {
-        "VehicleID": "",
-        "VehicleNumber": "",
-        "Brand": "",
-        "Model": "",
-        "Type": "",
-        "Fuel": "",
-        "Capacity": "",
-        "Remark": ""
+        "VehicleID": "V009",
+        "VehicleNumber": "MH85EF4599",
+        "Brand": "Mahindra",
+        "Model": "Supro Maxitruck",
+        "Type": "Mini Truck",
+        "Fuel": "Petrol",
+        "Capacity": "31.99 tons",
+        "Remark": "Minor dent on rear side"
+      },
+      {
+        "VehicleID": "V027",
+        "VehicleNumber": "GJ23EF5980",
+        "Brand": "Volvo",
+        "Model": "FM 400",
+        "Type": "Truck",
+        "Fuel": "Petrol",
+        "Capacity": "19.56 tons",
+        "Remark": "Recently returned from long trip"
       }
     ],
     "finalRecommendation": {
-      "plan": "",
-      "precautions": [""]
+      "plan": "Assign driver Anil Kumar (10 years of experience) with vehicle Volvo FM 400 (19.56 tons capacity). The vehicle is in excellent condition and recently returned from a long trip. Start the journey early morning to avoid traffic congestion near Chennai and Delhi.",
+      "precautions": [
+        "Ensure the vehicle undergoes a pre-trip inspection.",
+        "Plan for rest stops every 6-8 hours to avoid driver fatigue.",
+        "Carry fog lights and ensure they are functional for early morning fog in Delhi.",
+        "Monitor weather updates for any sudden changes."
+      ]
     }
   }
 }
+
