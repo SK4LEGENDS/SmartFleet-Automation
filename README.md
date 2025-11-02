@@ -62,7 +62,7 @@ Below are the core UiPath workflows used in the project:
 | Experience | Years of driving experience |
 | Proximity | Distance from current pickup location |
 | Phone | Contact number |
-| Remarks | Notes on availability, shift, etc. |
+| Remarks | Notes on driver. |
 
 ### 🚛 Vehicle Database
 ![Vehicle DB](Vehicle_DB.png)
@@ -77,7 +77,7 @@ Below are the core UiPath workflows used in the project:
 | Type | Truck, Lorry, Van, etc. |
 | Fuel | Petrol/Diesel/Electric |
 | Capacity | Load capacity |
-| Remarks | Availability or maintenance note |
+| Remarks | maintenance note |
 
 ---
 
@@ -90,16 +90,7 @@ Example evaluation fields include:
 - Route summary accuracy  
 - Weather and traffic context  
 - Correct mapping of driver/vehicle lists  
-- Logical recommendation plans  
-
----
-
-## 🚀 How to Run
-
-1. Open the project in **UiPath Studio**.  
-2. Configure database connections (SQLite or Excel).  
-3. Run the **Vehicle_Availability_Workflow_Final.xaml** or **Driver_Availability_Workflow_Final.xaml**.  
-4. View the generated recommendations and evaluator scores in the output pane.  
+- Logical recommendation plans    
 
 ---
 
