@@ -35,24 +35,24 @@ It combines **RPA precision** with **AI-driven decision-making** to analyze tran
 Below are the core UiPath workflows used in the project:
 
 ### 🧍 Driver Filtration Workflow
-![Driver Filtration Workflow](Driver Filtration Workflow.jpg)
+![Driver Filtration Workflow](Driver_Filtration_Workflow.jpg)
 
 ### 🚘 Vehicle Filtration Workflow
-![Vehicle Filtration Workflow](Vehicle Filtration Workflow.jpg)
+![Vehicle Filtration Workflow](Vehicle_Filtration_Workflow.jpg)
 
 ### 🤖 Main Agents
 **Agent 1:**  
-![Agent 1](Agent 1.png)
+![Agent 1](Agent_1.png)
 
 **Agent 2:**  
-![Agent 2](Agent 2.png)
+![Agent 2](Agent_2.png)
 
 ---
 
 ## 🗂️ Database Structure
 
 ### 👨‍✈️ Driver Database
-![Driver DB](Driver DB.png)
+![Driver DB](Driver_DB.png)
 
 **Schema Overview**
 | Field | Description |
@@ -65,7 +65,7 @@ Below are the core UiPath workflows used in the project:
 | Remarks | Notes on availability, shift, etc. |
 
 ### 🚛 Vehicle Database
-![Vehicle DB](Vehicle DB.png)
+![Vehicle DB](Vehicle_DB.png)
 
 **Schema Overview**
 | Field | Description |
